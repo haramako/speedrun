@@ -1,0 +1,35 @@
+<Catalog>
+    <Version>1</Version>
+    <Entries>
+        <CatalogEntry>
+            <Name>ドラマスキップ</Name>
+            <Uri>https://github.com/yagamuu/speedrun/raw/master/DragonFangZ/Mod/DFZDramaSkipMod/DFZDramaSkipMod.dll</Uri>
+            <Description>DESC DESC DESC</Description>
+            <Version>1.0.0</Version>
+        </CatalogEntry>
+        <CatalogEntry>
+            <Name>バグ修正</Name>
+            <Uri>https://github.com/yagamuu/speedrun/raw/master/DragonFangZ/Mod/DFZBugfixMod/DFZBugfixMod.dll</Uri>
+            <Description>DESC DESC DESC</Description>
+            <Version>1.0.0</Version>
+        </CatalogEntry>
+        <CatalogEntry>
+            <Name>ステートセーブ/ロード機能</Name>
+            <Uri>https://github.com/yagamuu/speedrun/raw/master/DragonFangZ/Mod/DFZEnabledStateSerializerMod/DFZEnabledStateSerializerMod.dll</Uri>
+            <Description>DESC DESC DESC</Description>
+            <Version>1.0.0</Version>
+        </CatalogEntry>
+        <CatalogEntry>
+            <Name>ファング強制装備しばり</Name>
+            <Uri>https://github.com/yagamuu/speedrun/raw/master/DragonFangZ/Mod/DFZForceFangEquipMod/DFZForceFangEquipMod.dll</Uri>
+            <Description>DESC DESC DESC</Description>
+            <Version>1.0.0</Version>
+        </CatalogEntry>
+        <CatalogEntry>
+            <Name>クイックリスタート</Name>
+            <Uri>https://github.com/yagamuu/speedrun/raw/master/DragonFangZ/Mod/DFZQuickRestartMod/DFZQuickRestartMod.dll</Uri>
+            <Description>DESC DESC DESC</Description>
+            <Version>1.0.0</Version>
+        </CatalogEntry>
+    </Entries>
+</Catalog>
