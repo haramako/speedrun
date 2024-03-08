@@ -21,7 +21,7 @@ namespace ModManager {
         private void Form1_Load(object sender, EventArgs e)
         {
             //var uri = new Uri("file:///ModCatalog.xml");
-            var uri = new Uri("https://github.com/haramako/speedrun/raw/feature/add-mod-manager/DragonFangZ/Mod/ModManager/ModManager/ModCatalog.xml");
+            var uri = new Uri("https://raw.githubusercontent.com/haramako/dfz_mod_catalog/main/catalog.xml");
             ModManager = new ModManager(uri);
             ModManager.OnLog += Log;
             loadCatalog().ConfigureAwait(true);
