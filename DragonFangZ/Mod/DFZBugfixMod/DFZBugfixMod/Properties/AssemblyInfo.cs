@@ -5,7 +5,7 @@ using System.Runtime.InteropServices.ComTypes;
 using MelonLoader;
 using DFZBugrfixMod; // The namespace of your mod class
 // ...
-[assembly: MelonInfo(typeof(DFZBugrfixMod.DFZBugrfixMod), "DragonFangZ Bugfix Mod", "1.1.0", "haramako")]
+[assembly: MelonInfo(typeof(DFZBugrfixMod.DFZBugrfixMod), "DragonFangZ Bugfix Mod", "1.1.1", "haramako")]
 [assembly: MelonGame("Toydea", "DragonFangZ")]
 
 // アセンブリに関する一般情報は以下を通して制御されます

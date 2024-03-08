@@ -55,8 +55,15 @@ namespace DFZBugrfixMod
         {
             public static bool Prefix(ref bool __result, Field f, Character c, SoulCondType cond, FilterOption opt)
             {
-                __result = CheckSoulFilterPatched(f, c, cond, opt);
-                return false;
+                if (cond == SoulCondType.WithProtect)
+                {
+                    __result = CheckSoulFilterPatched(f, c, cond, opt);
+                    return false;
+                }
+                else
+                {
+                    return true;
+                }
             }
 
             public static bool CheckSoulFilterPatched(Field f, Character c, SoulCondType cond, FilterOption opt)
@@ -139,9 +146,7 @@ namespace DFZBugrfixMod
             {
                 try
                 {
-                    Debug.Log(1);
                     var obj = Traverse.Create(__instance);
-                    Debug.Log(2);
                     texture2_ = obj.Field("texture2_").GetValue() as Texture2D;
                     texture2Buf_ = obj.Field("texture2Buf_").GetValue() as byte[];
                     yokoSabun_ = (int)obj.Field("yokoSabun_").GetValue();
